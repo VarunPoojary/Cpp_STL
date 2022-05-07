@@ -31,3 +31,12 @@ List Operations
 13. l.reverse() :-
 14. l.size() :-
 15. l.clear() :- 
+
+
+
+Stack Operations
+1. s.push(value) :- To add the element
+2. s.pop() :- To remove the last element
+3. s.top() :- Shows the top most element
+4. s.empty() :- Checks if stack is empty or not
+5. s.size() :- returns size of the stack
