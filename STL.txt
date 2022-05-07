@@ -40,3 +40,13 @@ Stack Operations
 3. s.top() :- Shows the top most element
 4. s.empty() :- Checks if stack is empty or not
 5. s.size() :- returns size of the stack
+
+
+
+Queue Operations
+1. q.push(value) :- Adds element to the end of queue
+2. q.pop() :- Removes the first element
+3. q.empty() :- Checks if empty or not
+4. q.size() :- Returns the size of queue
+5. q.front() :- Returns first element of queue
+6. q.back() :- Returns last element of queue
