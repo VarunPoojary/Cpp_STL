@@ -1,0 +1,33 @@
+Vectors Operations
+1. v.capacity() :- Tells the Size of the vector
+2. v.size() :- No. of elements in the vector
+3. v.push_back(value) :- add an element to vector
+4. v.at(index) :- access element at any index
+5. v.pop_back() :- delete last element
+6. v.front() :- points to first element
+7. v.back() :- points to last element
+8. v.clear() :- deletes all elements in a vector
+9. v.resize(size) :- Resize vector to store n elements
+10. v.shrink_to_fit() :- Resize according to number of elements present in the vector
+11. v.empty() :- CHeck whether vector is empty or not
+12. v.insert(position, value) :- Insert a value at a given position
+13. v.erase(position) :- Delete an element at a given Position
+
+
+
+List Operations
+1. l.push_back(value) :-
+2. l.push_front(value) :-
+3. l.begin() :-
+4. l.erase(position) :-
+5. l.pop_back():-
+6. l.pop_front() :-
+7. l.front() :-
+8. l.back() :-
+9. l.empty() :- Returns whether the list is empty(1) or not(0).
+10. l.insert() :-
+11. l.erase() :-
+12. l.assign() :-
+13. l.reverse() :-
+14. l.size() :-
+15. l.clear() :- 
