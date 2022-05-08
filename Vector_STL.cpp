@@ -1,11 +1,13 @@
 #include <iostream>
 // Vector Declaration
 #include<vector>
+// Algorithm Declaration
+#include<algorithm>
 using namespace std;
 int main() 
 {
-  // Vecotr Initialization Method 1
-  vector<int> vector1 = {1, 2, 3, 4, 5};
+  // Vector Initialization Method 1
+  vector<int> vector1 = {5,4,3,2,1};
   //Ranged Loop
   cout<<"Vector 1:";
   for(int i:vector1) 
@@ -73,10 +75,39 @@ int main()
   }
   cout<<endl;
  
-  cout<<"\nSize of Vector:"<<vector1.size()<<" Capacity:"<<vector1.capacity()<<endl;
-  vector1.clear();
-  cout<<"Size of Vector after clearing:"<<vector1.size()<<" Capacity:"<<vector1.capacity()<<endl;
+//   cout<<"\nSize of Vector:"<<vector1.size()<<" Capacity:"<<vector1.capacity()<<endl;
+//   vector1.clear();
+//   cout<<"Size of Vector after clearing:"<<vector1.size()<<" Capacity:"<<vector1.capacity()<<endl;
+  
+  
+  // Sorting
+  cout<<"\nSorting in Ascending order:";
+  sort(vector1.begin(), vector1.end());
+  for(int i:vector1)
+  {
+      cout<<i<<" ";
+  }
+  cout<<endl;
+  
+  cout<<"\nSorting in Descending order:";
+  sort(vector1.begin(), vector1.end(), greater<int>());
+  for(int i:vector1)
+  {
+      cout<<i<<" ";
+  }
+  cout<<endl;
+  
+  
+  // Searching
+  cout<<"\nSearching:-"<<endl;
+  if(binary_search(vector1.begin(), vector1.end(), 4))
+  cout<<"Element Found"<<endl;
+  else
+  cout<<"Element Not Found"<<endl;
+
+
 
 return 0;
 }
+
 
